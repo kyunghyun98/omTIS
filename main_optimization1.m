@@ -20,7 +20,8 @@ w_non = zeros(length(data_x),1);
 target = [0;0;0]; 
 switch model
     case 'cylinder'
-        r = 3.5;     case 'sphere'
+        r = 3.5;     
+    case 'sphere'
         r = 3;
 end
 
@@ -85,10 +86,7 @@ else
     E_plot_3d(i_stim,target,r,file);
 end
 
-% save_file = ['result_opti_code1_3d_16e_000_2.mat'];
-% save(save_file,'i_stim','target','r','v','M')
-% file = 'model_cylinder_32.mat'; model = 'cylinder';
-% file = 'model_sphere_32.mat' ; model = 'sphere';
+
 %%
 % objective function
 function out = fun(x,A,w,M)
