@@ -5,6 +5,5 @@ Kyunghyun Jo1, Yeji Kim2, Yeonzu Son1, Joon Hee Won3, Woojin Jeon4, Hyung Jin Ch
 ## Overview
 This repository contains the optimization code ('main_optimization1', 'main_optimization2') used in our paper and the simulation data for figures published in the paper as a result of the optimization.
 
-### Prerequisites
-
+All code has been tested in the software listed below.
 - MATLAB R2024b
