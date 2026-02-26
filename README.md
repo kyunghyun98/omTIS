@@ -16,8 +16,7 @@ The scripts require only a standard computer with enough RAM to support the in-m
 ### Software requirements
 * **OS:** Windows, macOS, or Linux operating systems capable of running MATLAB.
 * **Software:** MATLAB (Tested specifically on **MATLAB R2024b**).
-* **Dependencies / Toolboxes:** * [e.g., Optimization Toolbox]
-  * [e.g., Signal Processing Toolbox]
+* **Toolboxes:** Optimization Toolbox, Signal Processing Toolbox
 
 
 ## 2. Installation Guide
