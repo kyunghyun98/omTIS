@@ -165,7 +165,7 @@ image_max = image1+image2;
 
 figure
 axes1 = axes('Parent',gcf);
-im = imagesc([-25 25],[-25 25],image_max); % 이거 Y값 부호 반대로 뜨네
+im = imagesc([-25 25],[-25 25],image_max); 
 colorbar
 % title('Emax')
 pbaspect([1 1 1])
